@@ -7,7 +7,10 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting!"""
-    return 'IDS690 1st Individual Project.'
+    return """
+    <h1>IDS690 1st Individual Project</h1>
+    <a href="https://github.com/Ruiqi22Wang/continuous_delivery_demo1">Click here to see my repo </a>
+  """
 
 
 @app.route('/name/<value>')
