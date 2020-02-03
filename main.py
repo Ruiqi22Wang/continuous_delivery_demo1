@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    """Return a friendly HTTP greeting."""
+    """Return a friendly HTTP greeting!"""
     return 'IDS690 1st Individual Project.'
 
 
